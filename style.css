@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&amp;display=swap');
 
 :root{
-    --green:#27ae60;
+    --green:#f29513;
     --black:#444;
     --light-color:#777;
     --bg-color:#e6e6e6;
@@ -301,7 +301,7 @@ section{
 .about .row .progress .bar span{
     display: block;
     height: 100%;
-    background: var(--green);
+    background: linear-gradient(45deg, #ff0030, #c1d920, #27ae60);
     border-radius: 5rem;
 }
 
