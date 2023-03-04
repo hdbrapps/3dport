@@ -95,7 +95,7 @@ section{
 .header .user img{
     margin:1rem 0;
     border:1rem solid transparent;
-    border-radius: 50%;
+    border-radius: 50px 10px 70px;
     height: 18rem;
     width: 18rem;
     box-shadow: var(--box-shadow);
