@@ -7,7 +7,7 @@ function nextSlide() {
   slides[currentSlide].classList.add("active");
 }
 
-setInterval(nextSlide, 5000);
+setInterval(nextSlide, 8000);
 
 // Remova o preloader após o carregamento da página
 window.addEventListener('load', function(){
