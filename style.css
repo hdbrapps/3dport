@@ -221,7 +221,7 @@ section{
 .about .row{
     display: flex;
     align-items: center;
-    flex-wrap: wrap-reverse;
+    flex-wrap: ;
     gap:2rem;
 }
 
@@ -552,106 +552,81 @@ section{
 }
 
 .progress {
-    margin-bottom: 20px;
+    margin: 50px auto;
+    width: 80%;
     text-align: center;
   }
   
   .bar {
-    height: 20px;
-    margin: 10px 0;
-    background-color: #f2f2f2;
+    margin: 20px 0;
+    width: 100%;
+    height: 30px;
+    background-color: #ddd;
     position: relative;
+    overflow: hidden;
   }
   
   .bar span {
     display: block;
     height: 100%;
     position: absolute;
-    top: 0;
     left: 0;
-    background-color: #0078e7;
+    top: 0;
+    background-color: #008cba;
   }
   
-  /* Animação da barra de progresso */
-  
   .bar-1-1 span {
-    animation: animate-bar-1-1 5s;
+    width: 90%;
+    animation: progress-1-1 2s ease-out forwards;
   }
   
   .bar-1-2 span {
-    animation: animate-bar-1-2 5s;
+    width: 75%;
+    animation: progress-1-2 2s ease-out forwards;
   }
   
   .bar-1-3 span {
-    animation: animate-bar-1-3 5s;
+    width: 80%;
+    animation: progress-1-3 2s ease-out forwards;
   }
   
   .bar-2-1 span {
-    animation: animate-bar-2-1 5s;
+    width: 95%;
+    animation: progress-2-1 2s ease-out forwards;
   }
   
   .bar-2-2 span {
-    animation: animate-bar-2-2 5s;
+    width: 80%;
+    animation: progress-2-2 2s ease-out forwards;
   }
   
   .bar-2-3 span {
-    animation: animate-bar-2-3 5s;
+    width: 65%;
+    animation: progress-2-3 2s ease-out forwards;
   }
   
-  /* Definir animações para cada barra de progresso */
-  
-  @keyframes animate-bar-1-1 {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 90%;
-    }
+  @keyframes progress-1-1 {
+    0% { width: 0%; }
   }
   
-  @keyframes animate-bar-1-2 {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 75%;
-    }
+  @keyframes progress-1-2 {
+    0% { width: 0%; }
   }
   
-  @keyframes animate-bar-1-3 {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 80%;
-    }
+  @keyframes progress-1-3 {
+    0% { width: 0%; }
   }
   
-  @keyframes animate-bar-2-1 {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 95%;
-    }
+  @keyframes progress-2-1 {
+    0% { width: 0%; }
   }
   
-  @keyframes animate-bar-2-2 {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 80%;
-    }
+  @keyframes progress-2-2 {
+    0% { width: 0%; }
   }
   
-  @keyframes animate-bar-2-3 {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 65%;
-    }
+  @keyframes progress-2-3 {
+    0% { width: 0%; }
   }
   
 
