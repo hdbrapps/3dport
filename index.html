@@ -100,7 +100,7 @@
                   Tenho 22 anos, tenho 1 filho e moro em São Luis,
                   aos meus 16 anos de idade, eu sempre fui curioso em aprender programação.</strong>
                </p>
-               <a href="https://wa.me/5598970180089" class="btn">contato</a>
+               <a href="mailto:vntecnologialtda@gmail.com" class="btn">E-mail</a>
             </div>
          </div>
          <div class="row">
@@ -169,7 +169,58 @@
             <img src="/vnweb.netlify.app/image/dnc.png" width="50px">
          </div>
       </section>
-
+<!-- Código HTML existente -->
+<div id="loading">
+   <img src="/logo bit/bit-code.png" alt="Carregando...">
+ </div>
+ <!-- Fim do código HTML existente -->
+ 
+ <!-- Adicione o código CSS do preloader -->
+ <style>
+ #loading {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #000000; /* Cor de fundo preto */
+   z-index: 9999;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .spinner {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   border-top: 4px solid #ffffff;
+   border-right: 4px solid #ffffff;
+   border-bottom: 4px solid #ffffff;
+   border-left: 4px solid #aaaaaa; /* Cor da borda mais escura */
+   animation: spin 1s linear infinite;
+ }
+ 
+ @keyframes spin {
+   0% {
+     transform: rotate(0deg);
+   }
+   100% {
+     transform: rotate(360deg);
+   }
+ }
+ </style>
+ <script>
+   // Atraso de 3 segundos (3000 ms)
+   const delay = 5000;
+ 
+   // Remova o preloader após o atraso
+   setTimeout(function(){
+     document.getElementById("loading").style.display = "none";
+   }, delay);
+ </script>
+ <!-- Fim do código CSS do preloader -->
+ 
       <!-- services section starts  -->
       <section class="services" id="services">
          <h1 class="heading"> meus <span>serviços</span> </h1>
