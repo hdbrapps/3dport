@@ -22,24 +22,6 @@ themeToggler.onclick = () =>{
     }
 }
 
-// Seleciona o botão de menu e o menu lateral
-const menuBtn = document.querySelector('.menu-btn');
-const menu = document.querySelector('.menu');
-
-// Adiciona um evento de clique ao botão de menu para alternar a classe 'open'
-menuBtn.addEventListener('click', () => {
-  menu.classList.toggle('open');
-});
-
-// Seleciona o botão de alternar tema e a tag 'body'
-const toggleThemeBtn = document.querySelector('#toggle-theme');
-const body = document.querySelector('body');
-
-// Adiciona um evento de clique ao botão de alternar tema para alternar a classe 'dark'
-toggleThemeBtn.addEventListener('click', () => {
-  body.classList.toggle('dark');
-});
-
 // Selecione o botão de envio e adicione um evento de clique a ele
 document.getElementById('send').addEventListener('click', function(event) {
   // Evite o comportamento padrão de envio do formulário
