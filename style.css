@@ -93,12 +93,12 @@ section{
 }
 
 .header .user img{
-    
+   
     border:1rem solid transparent;
     border-radius: 50px 10px 70px;
     height: 18rem;
     width: 18rem;
-    box-shadow: var(--box-shadow);
+   
 }
 
 .header .user h3{
@@ -318,16 +318,34 @@ section{
 }
 
 .about .row .progress .bar-2-1 span{
-    width: 95%;
+    width: 100%;
     animation: progress-animation 6s infinite;
 }
 
 .about .row .progress .bar-2-2 span{
-    width: 89%;
+    width: 80%;
+    animation: progress-animation 6s infinite;
+    
 }
 
 .about .row .progress .bar-2-3 span{
     width: 65%;
+    animation: progress-animation 6s infinite;
+}
+
+.about .row .progress .bar-2-4 span{
+    width: 80%;
+    
+}
+
+.about .row .progress .bar-2-5 span{
+    width: 80%;
+    animation: progress-animation 6s infinite;
+}
+
+.about .row .progress .bar-2-6 span{
+    width: 100%;
+    animation: progress-animation 6s infinite;
 }
 
 .services .box-container{
@@ -612,5 +630,23 @@ select {
   #loading {
     display: none; /* oculta o elemento no início */
   }
+  .slider {
+    width: 100%;
+    height: 200px;
+    position: relative;
+  }
   
+  .slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slide1 {
+    background-color: #333;
+ }    
   
